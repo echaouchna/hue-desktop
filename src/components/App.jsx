@@ -2,7 +2,7 @@ import '../assets/css/App.css'
 import React from 'react'
 import Bridges from './Bridges'
 
-import { AppBar, Tabs, Tab, Typography, Box } from '@material-ui/core';
+import { AppBar, Tabs, Tab, Box } from '@material-ui/core';
 import { LinkOutlined, EmojiObjectsOutlined }  from '@material-ui/icons';
 
 function TabPanel(props) {
@@ -18,7 +18,7 @@ function TabPanel(props) {
     >
       {value === index && (
         <Box p={3}>
-          <Typography>{children}</Typography>
+          {children}
         </Box>
       )}
     </div>

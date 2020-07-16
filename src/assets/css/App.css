@@ -15,22 +15,44 @@
     font-family: Arial, Helvetica, Helvetica Neue, serif;
     overflow-y: hidden;
   }
-}
 
-.colorPrimary {
-  background-color: rgba(212, 50, 0, 0.3) !important;
+  .colorPrimary {
+    background-color: rgba(212, 50, 0, 0.3) !important;
+  }
 }
 
 span.MuiTab-wrapper {
   text-transform: none !important;
 }
 
+.refresh {
+  width: 100%;
+  color: white !important;
+}
+
+.refreshIcon {
+  margin-right: 10px;
+}
+
 @media screen and (prefers-color-scheme: dark) {
   /* Dark theme */
   body {
-    color: #fff;
+    position: relative;
+    color: white;
     text-shadow: black 0 1px;
-    background-color: #000;
+    height: 100vh;
+    background-color: #392a23;
+    background-image: linear-gradient(
+      45deg,
+      rgba(0, 60, 255, 0.5) 10%,
+      rgba(19, 0, 127, 0.7)
+    );
+    font-family: Arial, Helvetica, Helvetica Neue, serif;
+    overflow-y: hidden;
+  }
+
+  .colorPrimary {
+    background-color: rgba(74, 0, 212, 0.3) !important;
   }
 }
 
