@@ -1,0 +1,41 @@
+/* Example stylesheet */
+@media screen and (prefers-color-scheme: light), screen and (prefers-color-scheme: no-preference) {
+  /* Light theme */
+  body{
+    position: relative;
+    color: white;
+    text-shadow: black 0 1px;
+    height: 100vh;
+    background-color: #392a23;
+    background-image: linear-gradient(
+      45deg,
+      rgba(255, 136, 0, 0.5) 10%,
+      rgba(127, 30, 0, 0.7)
+    );
+    font-family: Arial, Helvetica, Helvetica Neue, serif;
+    overflow-y: hidden;
+  }
+}
+
+.colorPrimary {
+  background-color: rgba(212, 50, 0, 0.3) !important;
+}
+
+span.MuiTab-wrapper {
+  text-transform: none !important;
+}
+
+@media screen and (prefers-color-scheme: dark) {
+  /* Dark theme */
+  body {
+    color: #fff;
+    text-shadow: black 0 1px;
+    background-color: #000;
+  }
+}
+
+h1 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 21px;
+  font-weight: 200;
+}
