@@ -83,7 +83,7 @@ export default function Bridges() {
             {bridge.name}
           </Grid>
           <Grid item xs={3}>
-            <Button className="white-full-width" onClick={() => createUser(bridge.ipaddress)}>connect</Button>
+            <Button className="white-full-width" onClick={() => createUser(bridge.ipaddress)}>Connect</Button>
           </Grid>
         </Grid>
       </>

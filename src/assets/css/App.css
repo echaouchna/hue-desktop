@@ -17,11 +17,17 @@
   }
 
   div.bridge:nth-child(even) {
-    background:rgba(0,0,0,0.1);
+    background:rgba(0,0,0,0.05);
+    border-radius: 4px;
+  }
+
+  div.bridge:nth-child(odd) {
+    background:rgba(255, 255, 255, 0.05);
+    border-radius: 4px;
   }
 
   .colorPrimary {
-    background-color: rgba(212, 50, 0, 0.3) !important;
+    background:rgba(0,0,0,0.15) !important;
   }
 }
 
@@ -32,6 +38,7 @@ span.MuiTab-wrapper {
 .white-full-width {
   width: 100%;
   color: white !important;
+  text-transform: none !important;
 }
 
 .refreshIcon {
@@ -69,11 +76,17 @@ span.MuiTab-wrapper {
   }
 
   div.bridge:nth-child(even) {
-    background:rgba(0,0,0,0.1);
+    background:rgba(0,0,0,0.05);
+    border-radius: 4px;
+  }
+
+  div.bridge:nth-child(odd) {
+    background:rgba(255, 255, 255, 0.05);
+    border-radius: 4px;
   }
 
   .colorPrimary {
-    background-color: rgba(74, 0, 212, 0.3) !important;
+    background:rgba(0,0,0,0.15) !important;
   }
 }
 
