@@ -37,6 +37,7 @@ function createWindow() {
     height: 768,
     show: false,
     title: APP_NAME,
+    resizable: false,
     webPreferences: {
       nodeIntegration: true
     }

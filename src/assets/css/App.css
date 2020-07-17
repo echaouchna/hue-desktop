@@ -16,6 +16,10 @@
     overflow-y: hidden;
   }
 
+  div.bridge:nth-child(even) {
+    background:rgba(0,0,0,0.1);
+  }
+
   .colorPrimary {
     background-color: rgba(212, 50, 0, 0.3) !important;
   }
@@ -25,13 +29,26 @@ span.MuiTab-wrapper {
   text-transform: none !important;
 }
 
-.refresh {
+.white-full-width {
   width: 100%;
   color: white !important;
 }
 
 .refreshIcon {
   margin-right: 10px;
+}
+
+.bridges {
+  margin-top: 20px !important;
+}
+
+.bridge > * {
+  align-self: baseline;
+  width: 100%;
+}
+
+.bridge {
+  padding-left: 10px;
 }
 
 @media screen and (prefers-color-scheme: dark) {
@@ -49,6 +66,10 @@ span.MuiTab-wrapper {
     );
     font-family: Arial, Helvetica, Helvetica Neue, serif;
     overflow-y: hidden;
+  }
+
+  div.bridge:nth-child(even) {
+    background:rgba(0,0,0,0.1);
   }
 
   .colorPrimary {
